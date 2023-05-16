@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from database import SessionLocal, engine, Apartments, Buildings, CheckinJournal, Employers, FinancialJournal, \
+from .database import SessionLocal, engine, Apartments, Buildings, CheckinJournal, Employers, FinancialJournal, \
     Jobs, Participants, ParticipantStatusLogs, Pubs, Restaurants, Schools, SocialNetwork, TravelJournal
 
 app = FastAPI(title="VAST 2022 data access", openapi_prefix='/')

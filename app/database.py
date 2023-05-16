@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from pg_credentials import SQLALCHEMY_DATABASE_URL
+from .pg_credentials import SQLALCHEMY_DATABASE_URL
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
