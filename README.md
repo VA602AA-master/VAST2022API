@@ -24,3 +24,6 @@ The application can be run with Docker. To build the image run:
 ```
 docker compose up
 ```
+
+## API Documentation
+After the web application is started, the API documentation is available at ```http://localhost:8000/docs```. The documentation is automatically generated from the code and is interactive. It allows you to make calls to the API and see the results.
