@@ -1,7 +1,5 @@
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
 SA_USER = os.getenv("SA_USER")
 SA_PASSWORD = os.getenv("SA_PASSWORD")
